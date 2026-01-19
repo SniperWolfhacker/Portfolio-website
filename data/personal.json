@@ -1,0 +1,138 @@
+{
+  "personal": {
+    "firstName": "Rashad",
+    "lastName": "Ahmed",
+    "fullName": "Rashad Ahmed",
+    "title": "BCA Student | Cloud Computing",
+    "jobTitle": "BCA (Cloud Computing) Student",
+    "email": "rashadahmed7001@gmail.com",
+    "greeting": "Hi, my name is",
+    "description": {
+      "intro": "I build digital solutions using",
+      "main": "web technologies, creative design, and security expertise",
+      "highlightedTech": {
+        "primary": "Web Development",
+        "secondary": "Ethical Hacking & Cybersecurity"
+      }
+    }
+  },
+  "about": {
+    "paragraphs": [
+      "I am a BCA student at Jagran Lakecity University with strong skills in web development, logo design, and a growing interest in ethical hacking and cybersecurity. I have hands-on experience building responsive websites using HTML, CSS, JavaScript, PHP, and MySQL.",
+      "I've worked on diverse projects including a face recognition attendance system, AI-based chatbot applications, e-commerce websites with smart features, and WhatsApp-based automation systems. I also create creative and professional logo designs for individuals and small businesses.",
+      "I am passionate about learning new technologies, solving real-world problems through code, and delivering clean, efficient, and user-friendly digital solutions. Currently open to freelance opportunities, mini projects, and collaborations where I can apply my technical and creative skills to add real value."
+    ],
+    "stats": [
+      {
+        "icon": "Code",
+        "label": "Web Development",
+        "sublabel": "HTML, CSS, JS, PHP, MySQL"
+      },
+      {
+        "icon": "Palette",
+        "label": "Logo Design",
+        "sublabel": "Creative & Professional"
+      },
+      {
+        "icon": "Shield",
+        "label": "Ethical Hacking",
+        "sublabel": "Cybersecurity & Pentesting"
+      },
+      {
+        "icon": "Smartphone",
+        "label": "AI & Automation",
+        "sublabel": "Chatbots, Face Recognition"
+      }
+    ],
+    "certificates": [
+      {
+        "title": "Fundamentals of Graphic Design",
+        "issuer": "California Institute of the Arts"
+      },
+      {
+        "title": "Speaking to inform: Discussing complex ideas with clear explanations",
+        "issuer": "University of Washington",
+        "description": "Dynamic slides and clear explanations"
+      },
+      {
+        "title": "Create a Promotional Video using Canva",
+        "issuer": "Coursera Project Network"
+      },
+      {
+        "title": "Create High-Fidelity Designs and Prototypes in Figma",
+        "issuer": "Google"
+      },
+      {
+        "title": "Basics of Cisco Networking",
+        "issuer": "LearnQuest"
+      }
+    ]
+  },
+  "projects": {
+    "heading": "Featured Projects",
+    "subheading": "AI applications, e-commerce solutions, and automation systems"
+  },
+  "contact": {
+    "heading": "Get In Touch",
+    "subheading": "Looking for collaboration or have a project idea? Let's connect!",
+    "email": "rashadahmed7001@gmail.com",
+    "emailButtonText": "Email Me",
+    "socialLinks": [
+      {
+        "name": "LinkedIn",
+        "icon": "Linkedin",
+        "url": "https://www.linkedin.com/in/rashad-ahmed-94099423b/",
+        "color": "hover:text-blue-500"
+      },
+      {
+        "name": "GitHub",
+        "icon": "Github",
+        "url": "https://github.com/SniperWolfhacker",
+        "color": "hover:text-purple-500"
+      }
+    ]
+  },
+  "navigation": {
+    "items": [
+      "Home",
+      "About",
+      "Projects",
+      "Contact"
+    ]
+  },
+  "cta": {
+    "primary": {
+      "text": "View My Work",
+      "href": "#projects"
+    },
+    "secondary": {
+      "text": "Get In Touch",
+      "href": "#contact"
+    }
+  },
+  "metadata": {
+    "title": "Rashad Ahmed | Web Developer & Ethical Hacker",
+    "description": "BCA student at Jagran Lakecity University specializing in web development, logo design, and ethical hacking. Building AI solutions, e-commerce platforms, and automation systems.",
+    "keywords": [
+      "Rashad Ahmed",
+      "Web Developer",
+      "Ethical Hacking",
+      "Logo Design",
+      "BCA Student",
+      "PHP Developer",
+      "Cybersecurity",
+      "AI Chatbot",
+      "Jagran Lakecity University",
+      "Freelance Developer"
+    ],
+    "openGraph": {
+      "title": "Rashad Ahmed | Web Developer & Ethical Hacker",
+      "description": "AI applications, web development, and cybersecurity projects",
+      "type": "website"
+    }
+  },
+  "footer": {
+    "copyrightText": "All rights reserved.",
+    "showScrollToTop": true
+  }
+}
