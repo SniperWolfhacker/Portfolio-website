@@ -24,7 +24,7 @@ const paragraphVariants = {
     transition: {
       delay: i * 0.2,
       duration: 0.5,
-      ease: "easeOut"
+      ease: "easeOut" as const
     }
   })
 }
@@ -54,7 +54,7 @@ const certVariants = {
     transition: {
       delay: i * 0.1,
       duration: 0.4,
-      ease: "easeOut"
+      ease: "easeOut" as const
     }
   })
 }
@@ -67,12 +67,12 @@ export default function About() {
       <motion.div
         className="absolute top-20 right-10 w-72 h-72 bg-cyan-500/10 rounded-full blur-3xl"
         animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" as const }}
       />
       <motion.div
         className="absolute bottom-20 left-10 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl"
         animate={{ scale: [1.2, 1, 1.2], opacity: [0.3, 0.5, 0.3] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" as const }}
       />
 
       <div className="max-w-6xl mx-auto relative z-10">

@@ -18,7 +18,7 @@ export default function Contact() {
       <motion.div
         className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 dark:via-cyan-500/5 to-transparent"
         animate={{ opacity: [0.3, 0.6, 0.3] }}
-        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" as const }}
       />
 
       {/* Floating orbs */}
@@ -29,7 +29,7 @@ export default function Contact() {
           y: [0, -30, 0],
           scale: [1, 1.1, 1]
         }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" as const }}
       />
       <motion.div
         className="absolute bottom-20 right-20 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl"
@@ -59,7 +59,7 @@ export default function Contact() {
             duration: 3 + i * 0.3,
             repeat: Infinity,
             delay: i * 0.3,
-            ease: "easeInOut"
+            ease: "easeInOut" as const
           }}
         />
       ))}

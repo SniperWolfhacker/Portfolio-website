@@ -55,7 +55,7 @@ const floatingAnimation = {
   transition: {
     duration: 4,
     repeat: Infinity,
-    ease: "easeInOut"
+    ease: "easeInOut" as const
   }
 }
 
@@ -92,7 +92,7 @@ export default function Hero() {
       <motion.div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-purple-500/10 dark:bg-purple-500/20 rounded-full blur-3xl"
         animate={{ scale: [1, 1.1, 1], opacity: [0.3, 0.5, 0.3] }}
-        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" as const }}
       />
 
       {/* Floating particles */}
@@ -113,7 +113,7 @@ export default function Hero() {
             duration: 3 + i * 0.5,
             repeat: Infinity,
             delay: i * 0.4,
-            ease: "easeInOut"
+            ease: "easeInOut" as const
           }}
         />
       ))}
@@ -212,7 +212,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: [0, 10, 0] }}
             transition={{
               opacity: { delay: 2.2 },
-              y: { repeat: Infinity, duration: 1.5, ease: "easeInOut" }
+              y: { repeat: Infinity, duration: 1.5, ease: "easeInOut" as const }
             }}
             className="mt-20"
           >

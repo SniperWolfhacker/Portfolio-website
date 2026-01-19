@@ -16,12 +16,12 @@ export default function Projects() {
       <motion.div
         className="absolute top-1/3 left-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl"
         animate={{ x: [-50, 50, -50], opacity: [0.3, 0.5, 0.3] }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" as const }}
       />
       <motion.div
         className="absolute bottom-1/3 right-0 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl"
         animate={{ x: [50, -50, 50], opacity: [0.3, 0.5, 0.3] }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" as const }}
       />
 
       <div className="max-w-7xl mx-auto relative z-10">
